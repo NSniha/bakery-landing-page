@@ -1,5 +1,5 @@
-import news01 from "../assets/images/footer/news-01.jpg";
-import news02 from "../assets/images/footer/news-02.jpg";
+import news01 from "../assets/images/footer/news-01.png";
+import news02 from "../assets/images/footer/news-02.png";
 
 const footerNews = [
   {

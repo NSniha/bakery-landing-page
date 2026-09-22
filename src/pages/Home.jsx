@@ -1,4 +1,5 @@
 import Navbar from "../components/layout/Navbar";
+import Footer from "../components/layout/Footer";
 import Hero from "../components/sections/Hero";
 import TopProducts from "../components/sections/TopProducts";
 import OfferBanner from "../components/sections/OfferBanner";
@@ -19,6 +20,8 @@ const Home = () => {
         <AboutUs />
         <FeaturedTreats />
       </main>
+
+      <Footer />
     </>
   );
 };
