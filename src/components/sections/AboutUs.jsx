@@ -19,7 +19,7 @@ const AboutUs = () => {
 
           <h2 className={`about-heading text-[45px] font-semibold italic leading-none text-white transition-all delay-100 duration-700 sm:text-[56px] lg:text-[64px] ${isVisible ? "translate-y-0 opacity-100" : "translate-y-7 opacity-0"}`}>About Us</h2>
 
-          <p className={`mx-auto mt-5 max-w-120 text-[14px] font-normal leading-6 text-white/75 transition-all delay-200 duration-700 sm:text-[15px] lg:text-base lg:leading-7 ${isVisible ? "translate-y-0 opacity-100" : "translate-y-7 opacity-0"}`}>We believe the best moments begin with something freshly baked. From artisan breads to delicate pastries, every recipe is made with quality ingredients, patience, and genuine care.</p>
+          <p className={`mx-auto mt-5 max-w-120 text-[14px] font-normal leading-6 text-white/75 transition-all delay-200 duration-700 sm:text-[15px] lg:text-base lg:leading-7 ${isVisible ? "translate-y-0 opacity-100" : "translate-y-7 opacity-0"}`}>We believe the best moments begin with something freshly baked. From artisan breads to pastries, every recipe is made with quality ingredients and genuine care.</p>
 
           <div className={`mt-7 transition-all delay-300 duration-700 sm:mt-8 ${isVisible ? "translate-y-0 opacity-100" : "translate-y-7 opacity-0"}`}>
             <a href="#featured" className="group relative inline-flex min-h-13.5 items-center justify-center overflow-hidden rounded-[5px] bg-[#a9432c] px-7 text-[15px] font-medium text-white shadow-[0_10px_28px_rgba(0,0,0,0.2)] transition-all duration-300 hover:-translate-y-1 hover:bg-[#b94a30] hover:shadow-[0_16px_35px_rgba(0,0,0,0.3)] sm:min-h-14.5 sm:px-9 sm:text-[16px]">
