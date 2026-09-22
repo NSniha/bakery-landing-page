@@ -99,3 +99,8 @@ img {
         transform: translateY(0) scale(1);
     }
 }
+
+/* Promotional typography */
+.offer-heading {
+  font-family: "Cormorant Garamond", serif;
+}

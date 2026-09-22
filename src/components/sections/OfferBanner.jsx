@@ -9,7 +9,7 @@ const OfferBanner = () => {
       {/* Promotional background */}
       <img
         src={offerBg}
-        alt=""
+        alt="Offer Background"
         aria-hidden="true"
         className={`absolute inset-0 h-full w-full object-cover object-center transition-transform duration-1500 ease-out ${isVisible ? "scale-100" : "scale-110"}`}
       />
