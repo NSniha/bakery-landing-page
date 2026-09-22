@@ -15,8 +15,7 @@ A modern, responsive landing page for a bakery/food business, built with React a
 <br>
 
 ## Preview
-
-
+<img width="1280" height="800" alt="preview" src="https://github.com/user-attachments/assets/7f3ddc7c-6904-4b58-89b6-b0a81b84821d" />
 
 ## Features
 
