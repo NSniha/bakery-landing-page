@@ -126,3 +126,8 @@ img {
     transform: translateY(0) scale(1);
   }
 }
+
+/* About section typography */
+.about-heading {
+  font-family: "Cormorant Garamond", serif;
+}

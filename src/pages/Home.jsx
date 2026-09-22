@@ -3,6 +3,7 @@ import Hero from "../components/sections/Hero";
 import TopProducts from "../components/sections/TopProducts";
 import OfferBanner from "../components/sections/OfferBanner";
 import ExploreMore from "../components/sections/ExploreMore";
+import AboutUs from "../components/sections/AboutUs";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
         <TopProducts />
         <OfferBanner />
         <ExploreMore />
+        <AboutUs />
       </main>
     </>
   );
