@@ -2,7 +2,7 @@
 
 A modern, responsive landing page for a bakery/food business, built with React and Vite. Designed to present a bakery's story, menu, and products through a clean, fast, mobile-friendly interface.
 
-**Live Demo:** [[add your deployed link here]](https://moonlit-dusk-4db9c2.netlify.app/)
+**Live Demo:** [[https://moonlit-dusk-4db9c2.netlify.app/]]
 
 <br>
 
