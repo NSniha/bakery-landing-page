@@ -104,3 +104,25 @@ img {
 .offer-heading {
   font-family: "Cormorant Garamond", serif;
 }
+
+/* Explore section typography and modal motion */
+.explore-heading,
+.explore-modal-title {
+  font-family: "Cormorant Garamond", serif;
+}
+
+.explore-modal {
+  animation: exploreModalIn 0.32s ease-out both;
+}
+
+@keyframes exploreModalIn {
+  from {
+    opacity: 0;
+    transform: translateY(18px) scale(0.97);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
