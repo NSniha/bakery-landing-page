@@ -76,3 +76,26 @@ img {
         transition-duration: 0.01ms !important;
     }
 }
+
+/* Product typography and motion */
+.product-section-title,
+.product-modal-title {
+    font-family: "Cormorant Garamond", serif;
+    font-style: italic;
+}
+
+.product-modal {
+    animation: productModalIn 0.32s ease-out both;
+}
+
+@keyframes productModalIn {
+    from {
+        opacity: 0;
+        transform: translateY(18px) scale(0.97);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
