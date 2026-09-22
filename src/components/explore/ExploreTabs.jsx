@@ -17,7 +17,7 @@ const ExploreTabs = ({ tabs, activeTab, onChange }) => {
             {tab}
 
             <span
-              className={`absolute bottom-[-1px] left-0 h-[3px] rounded-full bg-[#a9432c] transition-all duration-300 ${
+              className={`absolute bottom-[-1px] left-0 h-0.75 rounded-full bg-[#a9432c] transition-all duration-300 ${
                 activeTab === tab
                   ? "w-full opacity-100"
                   : "w-0 opacity-0"
