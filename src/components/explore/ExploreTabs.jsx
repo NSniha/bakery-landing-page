@@ -1,25 +1,25 @@
 const ExploreTabs = ({ tabs, activeTab, onChange }) => {
   return (
-    <div className="relative mt-9 border-b border-black/12 sm:mt-11">
+    <div className="relative mt-9 border-b border-black/10 pb-3 sm:mt-11 sm:pb-0">
       {/* Explore categories */}
-      <div className="flex items-center gap-7 overflow-x-auto px-1 pb-0 sm:justify-center sm:gap-9 lg:gap-11">
+      <div className="grid w-full grid-cols-2 gap-x-3 gap-y-2 min-[420px]:grid-cols-3 sm:flex sm:items-center sm:justify-center sm:gap-8 lg:gap-11">
         {tabs.map((tab) => (
           <button
             key={tab}
             type="button"
             onClick={() => onChange(tab)}
-            className={`relative shrink-0 pb-3 text-[14px] font-medium transition-colors duration-300 sm:text-[15px] lg:text-[16px] ${
+            className={`group relative flex min-h-11 w-full items-center justify-center rounded-[4px] px-2 text-[13px] font-medium transition-all duration-300 sm:min-h-0 sm:w-auto sm:shrink-0 sm:rounded-none sm:px-0 sm:pb-3 sm:text-[15px] lg:text-[16px] ${
               activeTab === tab
-                ? "text-[#a9432c]"
-                : "text-[#5f5f5f] hover:text-[#a9432c]"
+                ? "bg-[#a9432c]/8 text-[#a9432c] sm:bg-transparent"
+                : "text-[#565656] hover:bg-[#a9432c]/5 hover:text-[#a9432c] sm:hover:bg-transparent"
             }`}
           >
             {tab}
 
             <span
-              className={`absolute bottom-[-1px] left-0 h-0.75 rounded-full bg-[#a9432c] transition-all duration-300 ${
+              className={`absolute bottom-0 left-1/2 h-0.75 -translate-x-1/2 rounded-full bg-[#a9432c] transition-all duration-300 ${
                 activeTab === tab
-                  ? "w-full opacity-100"
+                  ? "w-8 opacity-100 sm:w-full"
                   : "w-0 opacity-0"
               }`}
             />
