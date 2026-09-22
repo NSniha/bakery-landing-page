@@ -1,6 +1,6 @@
-import featured01 from "../assets/images/featured/featured-01.jpg";
-import featured02 from "../assets/images/featured/featured-02.jpg";
-import featured03 from "../assets/images/featured/featured-03.jpg";
+import featured01 from "../assets/images/featured/featured-01.png";
+import featured02 from "../assets/images/featured/featured-02.png";
+import featured03 from "../assets/images/featured/featured-03.png";
 
 const featuredTreats = [
   {

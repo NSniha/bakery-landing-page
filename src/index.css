@@ -131,3 +131,26 @@ img {
 .about-heading {
   font-family: "Cormorant Garamond", serif;
 }
+
+
+/* Featured products */
+.featured-heading,
+.featured-modal-title {
+  font-family: "Cormorant Garamond", serif;
+}
+
+.featured-modal {
+  animation: featuredModalIn 0.32s ease-out both;
+}
+
+@keyframes featuredModalIn {
+  from {
+    opacity: 0;
+    transform: translateY(18px) scale(0.97);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}

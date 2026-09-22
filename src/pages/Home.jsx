@@ -4,6 +4,7 @@ import TopProducts from "../components/sections/TopProducts";
 import OfferBanner from "../components/sections/OfferBanner";
 import ExploreMore from "../components/sections/ExploreMore";
 import AboutUs from "../components/sections/AboutUs";
+import FeaturedTreats from "../components/sections/FeaturedTreats";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
         <OfferBanner />
         <ExploreMore />
         <AboutUs />
+        <FeaturedTreats />
       </main>
     </>
   );
