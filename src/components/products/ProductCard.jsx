@@ -1,4 +1,4 @@
-import cardBg from "../../assets/images/products/product-card-bg.jpg";
+import cardBg from "../../assets/images/products/product-card-bg.png";
 
 const ProductCard = ({ product, isAdded, onAdd, onView }) => {
   return (
